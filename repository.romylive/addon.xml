@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.romylive"
+       name="RomyLIVE Repository"
+       version="1.0.1"
+       provider-name="RomyCupidon">
+    <extension point="xbmc.addon.repository"
+               name="RomyLIVE Repository">
+        <dir minversion="19.0.0">
+            <info compressed="false">https://romycupidon2025.github.io/RomyLIVE/addons.xml</info>
+            <checksum>https://romycupidon2025.github.io/RomyLIVE/addons.xml.md5</checksum>
+            <datadir zip="true">https://romycupidon2025.github.io/RomyLIVE/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">RomyLIVE Kodi Repository</summary>
+        <description lang="en">Repository pentru pluginurile Kodi RomyLIVE.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
